@@ -4,7 +4,7 @@ title: "[Bug]: "
 labels: ["bug", "triage"]
 assignees:
   - testswell
-    body:
+body:
   - type: markdown
     attributes:
       value: |
