@@ -23,7 +23,7 @@ body:
       label: Bug Description
       description: Describe the bug
       placeholder: Try to be as precise as possible
-      value: ""
+      value: "description"
     validations:
       required: true
   - type: dropdown
