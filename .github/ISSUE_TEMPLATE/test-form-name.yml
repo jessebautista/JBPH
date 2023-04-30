@@ -6,6 +6,15 @@ labels:
   - triage
 assignees:
   - testswell
+videourl:
+- type: input
+    id: video_url
+    attributes:
+      label: Video URL
+      description: Please add a video recording to help our team quickly identify the issue.
+      placeholder: ex. youtube.com
+    validations:
+      required: false
 body:
   - type: markdown
     attributes:
@@ -53,12 +62,3 @@ body:
         - Low
     validations:
       required: true
-videourl:
-- type: input
-    id: video_url
-    attributes:
-      label: Video URL
-      description: Please add a video recording to help our team quickly identify the issue.
-      placeholder: ex. youtube.com
-    validations:
-      required: false
