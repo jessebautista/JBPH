@@ -1,7 +1,7 @@
 name: test form name
 description: File a bug report v2
 title: "[Bug]: "
-labels: 
+labels:
   - bug
   - triage
 assignees:
@@ -53,7 +53,7 @@ body:
         - Low
     validations:
       required: true
-- type: input
+  - type: input
     id: video_url
     attributes:
       label: Video URL
