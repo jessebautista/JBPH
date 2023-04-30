@@ -53,7 +53,8 @@ body:
         - Low
     validations:
       required: true
-  - type: input
+videourl:
+- type: input
     id: video_url
     attributes:
       label: Video URL
